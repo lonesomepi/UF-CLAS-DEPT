@@ -13,13 +13,13 @@
       exit;
     }
 
-
     $db_table_searchQuery = "search_query";
     $table_exists = false;
     if ($wpdb->query( 'SELECT * FROM ' . $db_table_searchQuery) === false) {} else {
       $table_exists = true;
     }
 
+    $current_user = wp_get_current_user();
 
     // Admin Processing
     $current_user = wp_get_current_user();

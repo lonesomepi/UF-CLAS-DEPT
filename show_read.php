@@ -1,8 +1,4 @@
-<?php
-
-
-// 201217: EDITING to dump
-// 201028: capture queries, DENY exceptions, count instances, improve empty
+<?php // 201217: BACKUP BACKUP  capture queries, DENY exceptions, count instances, improve empty
 
   get_header();
 
